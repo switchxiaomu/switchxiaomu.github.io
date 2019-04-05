@@ -1,0 +1,115 @@
+## 网站设置
+# 标题
+title: Blog
+# 选项卡标题
+SEOTitle: 小木的博客 | Furkaies Blog
+# 首页背景图片
+header-img: img/post-bg-debug.png
+# 邮箱设置
+email: furkaies@gmail.com
+# 网站介绍
+description: "像你这种人还能怎么改变，只有死."
+# 关键词
+keyword: ""
+# 博客访问链接
+url: "https://switchxiaomu.github.io"
+# '/blog' if your blog hosted on 'host/blog'
+baseurl: ""
+
+## 侧边栏设置
+# 是否开启侧边栏 true 开始 false 关闭
+sidebar: true
+# 侧边栏描述语句
+sidebar-about-description: "我猜你的枪里没有子弹。"
+# 侧边栏头像
+sidebar-avatar: /img/sidebar-avatar.jpg
+
+## 社交网站设置
+RSS: false
+# 微博 打开个人主页截取用户编号 例如个人主页网址为https://weibo.com/u/5089298519 填写 5089298519
+weibo_username:     6038800152
+# 知乎个人页面 填写用户名
+zhihu_username:     xiao-mu-2-43
+# GitHub个人页面 填写用户名
+github_username:    switchxiaomu
+# facebook个人页面 填写用户名
+#facebook_username:  100024292873470
+# 简书个人页面截取用户编号 与微博同理
+jianshu_username:   56a2c6b6027c
+# twitter个人页面 填写用户名
+#twitter_username:   zhoudalu
+
+## 构建设置
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+## Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+## Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+## 评论系统
+# Disqus（https://disqus.com/）
+disqus_username: furkaies
+
+## Gitalk
+gitalk:
+  #是否开启Gitalk评论
+  enable: true
+  #生成的clientID
+  clientID: 866dad585d6081c1b6e5
+  #生成的clientSecret
+  clientSecret: 05b1c6bf660670bfcf4712edcf43b5ff53dd3c6c
+  #仓库名称
+  repo: switchxiaomu.github.io
+  #github用户名
+  owner: switchxiaomu
+  admin: switchxiaomu
+  #是否启用类似FB的阴影遮罩
+  distractionFreeMode: true
+
+## 统计
+# Baidu Analytics
+#ba_track_id: b50bf2b12b5338a1845e33832976fd68
+
+# Google Analytics
+ga_track_id: 'UA-137791240-1'
+# 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain: auto
+
+## 标签设置
+# 是否使用首页标签
+featured-tags: true
+# 相同标签数量大于这个数，才会出现在首页
+featured-condition-size: 0
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+## 友情链接
+friends: [
+    {
+        title: "斗鱼",
+        href: "https://www.douyu.com/"
+    },{
+        title: "虎牙",
+        href: "https://www.huya.com/"
+    },{
+        title: "碧蓝航线",
+        href: "http://wiki.joyme.com/blhx/%E9%A6%96%E9%A1%B5"
+    },{
+        title: "蒲公英PT",
+        href: "https://npupt.com/index.php"
+    }
+]
