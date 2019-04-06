@@ -2,13 +2,13 @@
 # 标题
 title: Furkaies Blog
 # 选项卡标题
-SEOTitle: 小木的博客 | Furkaies Blog
+SEOTitle: Furkaies Blog
 # 首页背景图片
 header-img: img/post-bg-debug.png
 # 邮箱设置
 email: furkaies@gmail.com
 # 网站介绍
-description: "像你这种人还能怎么改变，只有死."
+description: "I love you."
 # 关键词
 keyword: ""
 # 博客访问链接
@@ -22,7 +22,7 @@ sidebar: true
 # 侧边栏描述语句
 sidebar-about-description: "I guess, in you gun, no bullets."
 # 侧边栏头像
-sidebar-avatar: /img/sidebar-avatar.jpg
+sidebar-avatar: /img/sidebar-avatar.png
 
 ## 社交网站设置
 RSS: false
