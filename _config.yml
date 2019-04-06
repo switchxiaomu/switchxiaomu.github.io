@@ -1,6 +1,6 @@
 ## 网站设置
 # 标题
-title: Blog
+title: Furkaies Blog | 小木的博客
 # 选项卡标题
 SEOTitle: 小木的博客 | Furkaies Blog
 # 首页背景图片
@@ -20,7 +20,7 @@ baseurl: ""
 # 是否开启侧边栏 true 开始 false 关闭
 sidebar: true
 # 侧边栏描述语句
-sidebar-about-description: "我猜你的枪里没有子弹。"
+sidebar-about-description: "I guess, in you gun, no bullets."
 # 侧边栏头像
 sidebar-avatar: /img/sidebar-avatar.jpg
 
@@ -35,7 +35,7 @@ github_username:    switchxiaomu
 # facebook个人页面 填写用户名
 #facebook_username:  100024292873470
 # 简书个人页面截取用户编号 与微博同理
-jianshu_username:   56a2c6b6027c
+#jianshu_username:   56a2c6b6027c
 # twitter个人页面 填写用户名
 #twitter_username:   zhoudalu
 
