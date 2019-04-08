@@ -20,7 +20,7 @@ baseurl: ""
 # 是否开启侧边栏 true 开始 false 关闭
 sidebar: true
 # 侧边栏描述语句
-sidebar-about-description: "I guess, in you gun, no bullets."
+sidebar-about-description: "我叫小木，欢迎拜访我的博客."
 # 侧边栏头像
 sidebar-avatar: /img/sidebar-avatar.png
 
