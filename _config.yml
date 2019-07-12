@@ -22,7 +22,7 @@ sidebar: true
 # 侧边栏描述语句
 sidebar-about-description: "我叫小木，欢迎拜访我的博客."
 # 侧边栏头像
-sidebar-avatar: /img/sidebar-avatar.png
+sidebar-avatar: http:/furkaies.club/img/sidebar-avatar.png
 
 ## 社交网站设置
 RSS: false
